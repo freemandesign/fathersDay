@@ -1,0 +1,49 @@
+body {
+  height: 100%;
+  background: url("familym.jpg");
+  background-size: cover;
+
+}
+
+#present {
+  margin-top: 100px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h1 {
+  bottom: 0;
+  font-family: 'Dosis', 'Source Sans Pro', sans-serif;
+  font-weight: 100;
+  font-size: 80px;
+  color: #fff;
+  margin: 0;
+  display: block;
+  text-align: center;
+  letter-spacing: 10px;
+}
+p {
+  font-family: 'Dosis', 'Source Sans Pro', sans-serif;
+  font-weight: 100;
+  color: #fff;
+  margin: 0;
+  display: block;
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+@media (min-width: 700px){
+  body{
+    background: url("family.jpg");
+    background-size: cover;
+  }
+  #present {
+    margin-top: 100px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
